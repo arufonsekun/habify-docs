@@ -1,3 +1,6 @@
 * [Habify](/)
+* [Acessando o app](getting-started.md)
 * [Funcionalidades](features.md)
+  * [Criar tarefa](features.md#criar-tarefa)
+  * [Iniciar tarefa](features.md#iniciar-tarefa)
 * [Reportar problemas](issue-bugs.md)
