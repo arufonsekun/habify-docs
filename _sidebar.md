@@ -2,5 +2,8 @@
 * [Acessando o app](getting-started.md)
 * [Funcionalidades](features.md)
   * [Criar tarefa](features.md#criar-tarefa)
+  * [Preencher informações adicionais](features.md#preencher-informações-adicionais)
   * [Iniciar tarefa](features.md#iniciar-tarefa)
+  * [Acompanhar o ciclo](features.md#acompanhar-o-ciclo)
+* [Contribuir com o projeto](contributing.md)
 * [Reportar problemas](issue-bugs.md)
