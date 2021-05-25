@@ -7,14 +7,44 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="shortcut icon" type="image/png" href="/media/favicon.png"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --base-font-size: 16px;
+      --theme-color   : #4a53b8;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'Pomodorizator',
-      repo: 'https://github.com/Kellane/pomodorizator',
+      loadSidebar: true,
+      name: 'Habify',
+      repo: 'https://github.com/Kellane/habify',
 
+      plugins: [
+        function(hook) {
+          var footer = [
+            '<hr/>',
+            '<footer>',
+            '<span>&copy; <a href="https://github.com/Kellane/habify/graphs/contributors" target="_blank">Habify</a> developers 2021. </span>',
+            '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+            '</footer>'
+          ].join('');
+
+          hook.afterEach(function(html) {
+            return html + footer;
+          });
+        }
+      ]
     }
   </script>
   <!-- Docsify v4 -->
