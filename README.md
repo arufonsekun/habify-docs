@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/media/logo.jpeg"/>
+    <img src="_media/logo.jpeg"/>
 </p>
 
 # Habify
