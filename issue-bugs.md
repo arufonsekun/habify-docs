@@ -1,0 +1,2 @@
+# Reportando bugs
+
